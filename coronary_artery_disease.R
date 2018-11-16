@@ -605,4 +605,3 @@ acc(tab_9)
 list(svm4 = list(Total_Support_Vectors = svm4$tot.nSV, Table = tab_4 ,Accuracy = acc(tab_4)),
      svm7 = list(Total_Support_Vectors = svm7$tot.nSV,Table = tab_7 ,Accuracy = acc(tab_7)),
      svm9 = list(Total_Support_Vectors = svm9$tot.nSV,Table = tab_9 ,Accuracy = acc(tab_9)))
-

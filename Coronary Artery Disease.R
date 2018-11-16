@@ -348,7 +348,7 @@ info
 # library(ggplot2) for ggroc()
 ggroc(list(model = roccurve, model_2 = roccurve2, model_3 = roccurve3,model_4 = roccurve4, model_5 = roccurve5, model_6 = roccurve6,
            model_7 = roccurve7)) + ggtitle("ROC Curve") + theme(plot.title = element_text(hjust = 0.5))
-#### tables of models. 
+### tables of models. 
 # Looking for models with smallest false negative rate, that means predicited no but Actual is yes 
 tables <- list(model1 = tab1,
                model2 = tab2,
@@ -541,7 +541,7 @@ tab9_sig <- table(Predicited = pred9_sig, Actual = train$AHD)
 tab9_sig
 
 
-##### Number of support vectors, table for each model, Accuracy for each model
+### Number of support vectors, table for each model, Accuracy for each model
 ##For train 
 svm_list <- list(svm1 = list(svm1_lin$tot.nSV,acc(tab_lin)),
                  svm1_sig = list(svm1_sig$tot.nSV,acc(tab_sig)),
@@ -600,7 +600,7 @@ plot(pred_9, main = "SVM 9 (Test Data)")
 tab_9 <- table(Predicited = pred_9, Actual = test$AHD)
 tab_9
 acc(tab_9)
-##### Number of support vectors, table for each model, Accuracy for each model
+### Number of support vectors, table for each model, Accuracy for each model
 ### For test
 list(svm4 = list(Total_Support_Vectors = svm4$tot.nSV, Table = tab_4 ,Accuracy = acc(tab_4)),
      svm7 = list(Total_Support_Vectors = svm7$tot.nSV,Table = tab_7 ,Accuracy = acc(tab_7)),

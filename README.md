@@ -6,8 +6,9 @@ In this project, this study attempted to predict the possibilities of a given pa
 
 ---
 
-IMAGE
-
+<p align="center">
+  <img width="450" height="300" src="https://github.com/ankur715/coronary_artery_disease/blob/master/dc-Cover-gvrs121ec4vt8q8dgabh2k2d54-20181112170506.Medi.jpeg"> 
+</p>
 ---
 
 Conclusion:

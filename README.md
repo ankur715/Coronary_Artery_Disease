@@ -14,4 +14,4 @@ For Logistic Regression, the best model found was Model 6 (AHD ~ Sex + ChestPain
 
 ---
 
-If you want to chat about any project ideas or work opportunities, please contact me at p.ankur.715@gmail.com.
+If you want to chat about any project ideas or work opportunities, please contact me at [p.ankur.715@gmail.com](mailto:p.ankur.715@gmail.com) or https://www.linkedin.com/in/ankurpatel715/..
